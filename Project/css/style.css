@@ -1,0 +1,232 @@
+.container{
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 37%;
+}
+.logo{
+  margin-top: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text{ 
+  color: #666666;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Trebuchet MS";
+}
+
+.country{ 
+  font-size: 30px;
+}
+.text1{color: #33cc33;}
+.text2{color: #ffcc00;}
+.text3{color: #ff5050;}
+
+
+.button {
+  font-family: "Trebuchet MS";
+  display: inline-block;
+  padding: 3px 50px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  background-color: #6699ff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #0033cc;
+  transition-duration: 0.3s;
+  width: 500px;
+}
+.button:hover {background-color: #99ccff}
+.button:active {
+  box-shadow: 0 5px #0033cc;
+  transform: translateY(3px);
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.ghost { position: absolute;  left: -999999px;}
+
+.buttonW {
+  font-family: "Trebuchet MS";
+  display: inline-block;
+  padding: 3px 50px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  background-color: #ff5050;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #cc0000;
+  transition-duration: 0.3s;
+  width: 500px;
+}
+.buttonW:hover {background-color: #ff9999}
+.buttonW:active {
+  box-shadow: 0 5px #cc0000;
+  transform: translateY(3px);
+}
+
+.buttonR {
+  font-family: "Trebuchet MS";
+  display: inline-block;
+  padding: 3px 50px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  background-color: #39e600;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #009933;
+  transition-duration: 0.3s;
+  width: 500px;
+}
+.buttonR:hover {background-color: #40ff00}
+.buttonR:active {
+  box-shadow: 0 5px #009933;
+  transform: translateY(3px);
+}
+
+.buttonB {
+  font-family: "Trebuchet MS";
+  display: inline-block;
+  padding: 3px 50px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  background-color: #e6e600;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #b3b300 ;
+  transition-duration: 0.3s;
+  width: 500px;
+}
+.buttonB:hover {background-color: #ffff66}
+.buttonB:active {
+  box-shadow: 0 5px #b3b300;
+  transform: translateY(3px);
+}
+
+.buttonE {
+  font-family: "Trebuchet MS";
+  display: inline-block;
+  padding: 3px 10px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 475px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #404040;
+  background-color: #a6a6a6;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #8c8c8c ;
+  transition-duration: 0.3s;
+  opacity: 0.75;
+}
+.buttonE:hover {background-color: #bfbfbf}
+.buttonE:active {
+  box-shadow: 0 5px #8c8c8c;
+  transform: translateY(3px);
+}
+
+.mx{background-image: url('flags/Mexico.png');}
+.fr{background-image: url('flags/flagFrance.png' );}
+.sp{background-image: url('flags/Spain.png' );}
+.us{background-image: url('flags/usa.png' );}
+.ch{background-image: url('flags/china.png' );}
+.it{background-image: url('flags/flagItaly.png' );}
+.uk{background-image: url('flags/flagUK.png' );}
+.tu{background-image: url('flags/Turkey.png' );}
+.ge{background-image: url('flags/flagGermany.png' );}
+.ta{background-image: url('flags/Thailand.png' );}
+
+
+.map{background-image: url('icons/state.png' );}
+.cine{background-image: url('icons/cine.png' );}
+.city{background-image: url('icons/city.png' );}
+.food{background-image: url('icons/food.svg' );}
+.art{background-image: url('icons/art.png' );}
+.religion{background-image: url('icons/religion.png' );}
+.building{background-image: url('icons/building.png' );}
+.history{background-image: url('icons/history.png' );}
+.music{background-image: url('icons/music.png' );}
+.cap{background-image: url('icons/map.png' );}
+
+.buttonF {
+  background-size: 100px 66.6px;
+  width: 100px;
+  height: 66.6px; 
+  display: inline-block;
+  padding: 0px 0px;
+  cursor: pointer;
+  margin-left: 40%;
+  text-decoration: none;
+  background-color: #a6a6a6;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 10px #cccccc ;
+  transition-duration: 0.3s;
+  color: black;
+}
+.buttonF:active {
+  box-shadow: 0px 0px ;
+  transform: translateY(3px);
+}
+
+.buttonI{
+  background-size: 75px 75px;
+  width: 75px;
+  height: 75px; 
+  background-color: #f2f2f2;
+}
+.buttonI:hover {
+  opacity: 0.5;
+}
+
+.buttonMx:hover {
+  opacity: 0.5;
+}
+
+.principal{
+  font-size: 30px;
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 50px;
+}
+
+.header{
+  display: block;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: "Trebuchet MS";
+  background-color: Gray;
+}
+.soon{
+  background-color: #bfbfbf;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<title>Comida</title>
+</head>
+<body>
+	<audio id="audioRight" src="audio/s2.mp3" autoplay="false"></audio>
+	<audio id="audioWrong" src="audio/s1.mp3" autoplay="false"></audio>
+	<div class="container">
+		<div class="image">
+			<form><button class="buttonE" id="button7" formaction="quizzes.html">x</button></form>
+		    <text class="text" id="cont">Question: 0/15</text><p>
+		  	<img id="img" width="500" height="350" src="images/ciudades/angel.jpg" />
+	    </div>
+	    <text class="text" id="question">Question?</text><p>
+		<button class="button" id="button1">1</button><p>
+		<button class="button" id="button2">2</button><p>
+		<button class="button" id="button3">3</button><p>
+		<button class="button" id="button4">4</button><p>
+		<button class="ghost" id="button5" onclick="play()">Next</button><p>	
+		<form><button class="ghost" id="button6" formaction="quizzes.html">Go Back!</button></form>
+	</div> 
+	<script src="js/ciudadCodigo.js"></script>
+</body>
+</html>

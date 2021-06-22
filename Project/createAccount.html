@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Create account</title>
+</head>
+<body>
+ <form action="insert.php" method="POST">
+  <div style="margin:5px; position: relative; left: 45%">
+    <img width="10%" src="images/easyCulture.jpg" alt="Amazon"/>
+  </div>
+  <div id="container"> 
+    <p id="h1">Create account</p>
+    <table>
+     <tr>
+      <p id="h2">Your name</p>
+      <p><input type="text" name="nombre" id="nombre" required></p>
+     </tr>
+     <tr>
+      <p id="h2">Email</p>
+      <p><input type="email" name="correo" id="correo" required></p>
+     </tr> 
+     <tr>
+      <p id="h2">Password</p>
+      <p><input type="password" name="contrasenia" id="contrasenia" required></p>
+      <p id="h4"></p>
+      <p id="h3">The password must contain at least 6 characters</p>
+     </tr>
+     <tr>
+      <p id="h2">Rewrite your password</p>
+      <p><input type="password" name="contrasenia1" id="contrasenia1" required></p>
+     </tr>
+     <tr>
+      <p><input type="submit" value="Create your account" id="btn"></p>
+     </tr>
+     <p id="h3">When you create an account, you accept the <a href=""> Conditions of Use </a> 
+      <p id="h3"> and the <a href="">Privacy Policy</a> of easyculture.com</p>
+      <hr>
+      <p id="h3">Do you already have an account? <a href="">Log in ></a></p>
+    </table>
+  </div>
+ </form>
+ <script src="main.js"></script>
+</body>
+</html>
